@@ -2,9 +2,9 @@
   "name": "nativekit",
   "version": "0.1.0",
   "description": "Native UI Kit for Electron Framework",
-  "main": "index.js",
   "scripts": {
-    "test": "electron ."
+    "start-mac-template": "electron templates/mac",
+    "start-win-template": "electron templates/win"
   },
   "repository": {
     "type": "git",
