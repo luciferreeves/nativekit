@@ -1,0 +1,10 @@
+{
+    "name": "nativeui-win-template",
+    "version": "1.0.0",
+    "description": "Windows template app for Native UI",
+    "main": "main.js",
+    "author": "Kumar Priyansh",
+    "scripts": {
+      "start": "electron ."
+    }
+}
