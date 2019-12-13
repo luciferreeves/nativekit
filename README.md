@@ -1,10 +1,10 @@
-# Native Kit
+![Native Kit Banner](./banner/NativeKitBannerWhite.png)
+<!-- # Native Kit -->
 
 ![Still in development. Please don't clone this repository.](https://i.ibb.co/NWYVmjZ/Screenshot-2019-12-13-at-6-22-25-AM.png)
 
 <br>
 
-![Native Kit Banner](./banner/NativeKitBannerWhite.png)
 
 <!-- <div style="background-color:darkred; padding: 10px 5px; color: white; font-size: 14px; font-weight: 300; border-radius: 3px">Still in development. Please don't clone this repository.</div> -->
 
