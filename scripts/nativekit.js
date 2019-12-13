@@ -1,0 +1,1 @@
+console.log("Hello World! This app is built using NativeKit")
