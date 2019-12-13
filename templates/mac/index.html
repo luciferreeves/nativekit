@@ -1,18 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>macOS Native Kit</title>
     <link rel="stylesheet" href="./../../dist/mac/all.css">
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
 </head>
+
 <body>
-    <div class="window-vibrant">
-        <div class="content">   
+    <div class="window">
+        <header class="titlebar draggable">
+            <h1 class="window-title">macOS Native Kit</h1>
+            <div class="toolbars">
+                <div class="button-group">
+                    <button class="button button-default button-active">
+                        <ion-icon name="home"></ion-icon>
+                    </button>
+                    <button class="button button-default">
+                        <ion-icon name="folder"></ion-icon>
+                    </button>
+                    <button class="button button-default">
+                        <ion-icon name="cloud"></ion-icon>
+                    </button>
+                    <button class="button button-default">
+                        <ion-icon name="apps"></ion-icon>
+                    </button>
+                    <button class="button button-default">
+                        <ion-icon name="shuffle"></ion-icon>
+                    </button>
+                </div>
+
+                <button class="button button-default">
+                    <ion-icon name="home"></ion-icon>
+                    <span class="icon-text">Filters</span>
+                </button>
+
+                <div class="dropdown pull-right">
+                    <button name="demoDropdown" class="button button-default button-dropdown">
+                        <ion-icon name="megaphone"></ion-icon>
+                    </button>
+                    <div id="demoDropdown" class="dropdown-content dropdown-overflow">
+                        <a id="shoutout">Shout Out</a>
+                        <a id="support">Support</a>
+                        <div class="dropdown-divider"></div>
+                        <a id="awesomeness">Awesomeness</a>
+                        <a id="about">About</a>
+                        <a id="contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+
         </div>
+        <footer class="titlebar titlebar-footer">
+            <h1 class="window-title">Footer</h1>
+        </footer>
     </div>
     <script src="./../../scripts/nativekit.js"></script>
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
+
 </html>
