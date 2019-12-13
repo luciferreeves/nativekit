@@ -25,323 +25,379 @@ discretion.
 COMPONENTS IN THIS FILE:
 ------------------------
 
-1. Window Wrapper
-2. Title Bars
-3. Box Layouts
-4. Sidebars
-5. Image Views
-6. Outline Lists
-7. Tables
-8. Lists
-9. Buttons
-10. Forms
-11. Panels
-12. Popovers
-13. Split Views
-14. Tab Views
-15. Progress Indicators
-16. Panes
+1. Font Imports
+2. Global Styles
+3. Window Wrapper
+4. Text Styles
+5. Floats and Clearfixes
+6. Paddings
+7. Draggable Regions
+8. Title Bars
+9. Toolbars
+10. Buttons
+11. Dropdown Menu
+. Box Layouts
+. Sidebars
+. Image Views
+. Outline Lists
+. Tables
+. Lists
+. Forms
+. Panels
+. Popovers
+. Split Views
+. Tab Views
+. Progress Indicators
+. Panes
 
 */
 
-/* 
-
-FONT IMPORTS
-------------
-
-*/
+/* Font Imports */
 
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-Ultralight.otf');
     font-weight: 100;
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-UltralightItalic.otf');
     font-weight: 100;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-Thin.otf');
     font-weight: 200;
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-ThinItalic.otf');
     font-weight: 200;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-Light.otf');
     font-weight: 300;
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-LightItalic.otf');
     font-weight: 300;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-Regular.otf');
     font-weight: 400;
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-RegularItalic.otf');
     font-weight: 400;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-Medium.otf');
     font-weight: 500;
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-MediumItalic.otf');
     font-weight: 500;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-Semibold.otf');
     font-weight: 600;
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-SemiboldItalic.otf');
     font-weight: 600;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-Bold.otf');
     font-weight: 700;
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-BoldItalic.otf');
     font-weight: 700;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-Heavy.otf');
     font-weight: 800;
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-HeavyItalic.otf');
     font-weight: 800;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-Black.otf');
     font-weight: 900;
 }
+
 @font-face {
     font-family: SFProDisplay;
     src: url('../../fonts/mac/SF-Pro-Display-BlackItalic.otf');
     font-weight: 900;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-Ultralight.otf');
     font-weight: 100;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-UltralightItalic.otf');
     font-weight: 100;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-Thin.otf');
     font-weight: 200;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-ThinItalic.otf');
     font-weight: 200;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-Light.otf');
     font-weight: 300;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-LightItalic.otf');
     font-weight: 300;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-Regular.otf');
     font-weight: 400;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-RegularItalic.otf');
     font-weight: 400;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-Medium.otf');
     font-weight: 500;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-MediumItalic.otf');
     font-weight: 500;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-Semibold.otf');
     font-weight: 600;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-SemiboldItalic.otf');
     font-weight: 600;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-Bold.otf');
     font-weight: 700;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-BoldItalic.otf');
     font-weight: 700;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-Heavy.otf');
     font-weight: 800;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-HeavyItalic.otf');
     font-weight: 800;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-Black.otf');
     font-weight: 900;
 }
+
 @font-face {
     font-family: SFProRounded;
     src: url('../../fonts/mac/SF-Pro-Rounded-BlackItalic.otf');
     font-weight: 900;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-Ultralight.otf');
     font-weight: 100;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-UltralightItalic.otf');
     font-weight: 100;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-Thin.otf');
     font-weight: 200;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-ThinItalic.otf');
     font-weight: 200;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-Light.otf');
     font-weight: 300;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-LightItalic.otf');
     font-weight: 300;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-Regular.otf');
     font-weight: 400;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-RegularItalic.otf');
     font-weight: 400;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-Medium.otf');
     font-weight: 500;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-MediumItalic.otf');
     font-weight: 500;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-Semibold.otf');
     font-weight: 600;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-SemiboldItalic.otf');
     font-weight: 600;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-Bold.otf');
     font-weight: 700;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-BoldItalic.otf');
     font-weight: 700;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-Heavy.otf');
     font-weight: 800;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-HeavyItalic.otf');
     font-weight: 800;
     font-style: italic;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-Black.otf');
     font-weight: 900;
 }
+
 @font-face {
     font-family: SFProText;
     src: url('../../fonts/mac/SF-Pro-Text-BlackItalic.otf');
@@ -349,14 +405,131 @@ FONT IMPORTS
     font-style: italic;
 }
 
-/*
+@font-face {
+    font-family: entypo;
+    src: url('../../fonts/entypo/entypo.ttf');
+}
 
-GLOBAL STYLES
---------------
+/* Global Styles */
 
-*/
+audio, canvas, progress, video {
+    vertical-align: baseline;
+}
+
+audio:not([controls]) {
+    display: none;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+dfn {
+    font-style: italic;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+pre {
+    overflow: auto;
+}
+
+code, kbd, pre, samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+    border: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td, th {
+    padding: 0;
+}
+
+* {
+    cursor: default;
+    -webkit-user-select: none;
+}
+
+input, textarea {
+    -webkit-user-select: text;
+}
+
+form, input, optgroup, select, textarea {
+    -webkit-user-select: text;
+    -webkit-app-region: no-drag;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
 
 body {
+    height: 100%;
     padding: 0;
     margin: 0;
 }
@@ -383,10 +556,507 @@ body {
     display: flex;
     flex-direction: column;
 }
-  
+
 .content {
+    position: relative;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.content-flexed {
     position: relative;
     overflow-y: auto;
     display: flex;
     flex: 1;
 }
+
+/* Text Styles */
+
+.selectable {
+    cursor: text;
+    -webkit-user-select: text;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: SFProText;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+/* Floats and Clearfixes */
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: " ";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* Paddings */
+
+.padded {
+    padding: 10px;
+}
+
+.padded-less {
+    padding: 5px;
+}
+
+.padded-more {
+    padding: 20px;
+}
+
+.padded-vertically {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.padded-vertically-less {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.padded-vertically-more {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.padded-horizontally {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.padded-horizontally-less {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.padded-horizontally-more {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.padded-top {
+    padding-top: 10px;
+}
+
+.padded-top-less {
+    padding-top: 5px;
+}
+
+.padded-top-more {
+    padding-top: 20px;
+}
+
+.padded-bottom {
+    padding-bottom: 10px;
+}
+
+.padded-bottom-less {
+    padding-bottom: 5px;
+}
+
+.padded-bottom-more {
+    padding-bottom: 20px;
+}
+
+.padded-left {
+    padding-left: 10px;
+}
+
+.padded-left-less {
+    padding-left: 5px;
+}
+
+.padded-left-more {
+    padding-left: 20px;
+}
+
+.padded-right {
+    padding-right: 10px;
+}
+
+.padded-right-less {
+    padding-right: 5px;
+}
+
+.padded-right-more {
+    padding-right: 20px;
+}
+
+/* Draggable Regions */
+
+.draggable {
+    -webkit-app-region: drag;
+}
+
+.not-draggable {
+    -webkit-app-region: no-drag;
+}
+
+/* Title Bars */
+
+.titlebar {
+    min-height: 22px;
+    box-shadow: inset 0 1px 0 #f5f4f5;
+    background-color: #e8e6e8;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e8e6e8), color-stop(100%, #d1cfd1));
+    background-image: -webkit-linear-gradient(top, #e8e6e8 0%, #d1cfd1 100%);
+    background-image: linear-gradient(to bottom, #e8e6e8 0%, #d1cfd1 100%);
+    border-bottom: 1px solid #c2c0c2;
+}
+
+.titlebar:before, .titlebar:after {
+    display: table;
+    content: " ";
+}
+
+.titlebar:after {
+    clear: both;
+}
+
+.titlebar .window-title {
+    margin-top: 1px;
+}
+
+.titlebar-footer {
+    border-top: 1px solid #c2c0c2;
+}
+
+.window-title {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: #555;
+    cursor: default;
+    position: relative;
+    top: 3px;
+}
+
+/* Toolbars */
+
+.toolbars-borderless {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.toolbars {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    -webkit-app-region: drag;
+}
+
+.toolbars:before, .toolbars:after {
+    display: table;
+    content: " ";
+}
+
+.toolbars:after {
+    clear: both;
+}
+
+.toolbars>.button, .toolbars>.button-group {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/* Buttons */
+
+.button {
+    display: inline-block;
+    padding: 3px 8px;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: default;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+    -webkit-app-region: no-drag;
+    font-family: SFProtext;
+}
+
+.button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.button-mini {
+    padding: 2px 6px;
+}
+
+.button-large {
+    padding: 6px 12px;
+}
+
+.button-form {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.button-default {
+    color: #333;
+    border-top-color: #c2c0c2;
+    border-right-color: #c2c0c2;
+    border-bottom-color: #a19fa1;
+    border-left-color: #c2c0c2;
+    background-color: #fcfcfc;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(100%, #f1f1f1));
+    background-image: -webkit-linear-gradient(top, #fcfcfc 0%, #f1f1f1 100%);
+    background-image: linear-gradient(to bottom, #fcfcfc 0%, #f1f1f1 100%);
+}
+
+.button-default:active {
+    background-color: #ddd;
+    background-image: none;
+}
+
+.button-blue {
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.button-blue {
+    border-color: #388df8;
+    border-bottom-color: #0866dc;
+    background-color: #6eb4f7;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6eb4f7), color-stop(100%, #1a82fb));
+    background-image: -webkit-linear-gradient(top, #6eb4f7 0%, #1a82fb 100%);
+    background-image: linear-gradient(to bottom, #6eb4f7 0%, #1a82fb 100%);
+}
+
+.button-blue:active {
+    background-color: #3e9bf4;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3e9bf4), color-stop(100%, #0469de));
+    background-image: -webkit-linear-gradient(top, #3e9bf4 0%, #0469de 100%);
+    background-image: linear-gradient(to bottom, #3e9bf4 0%, #0469de 100%);
+}
+
+.button ion-icon {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: #737475;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.button .icon-text {
+    margin-left: 5px;
+    margin-right: 2px;
+    position: relative;
+    top: 2px;
+    display: inline-block;
+}
+
+.button-dropdown:after {
+    font-family: "entypo";
+    margin-left: 5px;
+    content: '\e873';
+}
+
+.button-group {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-app-region: no-drag;
+}
+
+.button-group .button {
+    position: relative;
+    float: left;
+}
+
+.button-group .button:focus, .button-group .button:active {
+    z-index: 2;
+}
+
+.button-group .button.button-active {
+    z-index: 3;
+}
+
+.button-group .button+.button, .button-group .button+.button-group, .button-group .button-group+.button, .button-group .button-group+.button-group {
+    margin-left: -1px;
+}
+
+.button-group>.button:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.button-group>.button:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.button-group>.button:not(:first-child):not(:last-child) {
+    border-radius: 0;
+}
+
+.button-group .button+.button {
+    border-left: 1px solid #c2c0c2;
+}
+
+.button-group .button+.button.button-active {
+    border-left: 0;
+}
+
+.button-group .button-active {
+    color: #fff;
+    border: 1px solid transparent;
+    background-color: #6d6c6d;
+    background-image: none;
+}
+
+.button-group .button-active ion-icon {
+    color: #fff;
+}
+
+/* Dropdown Menu */
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    padding: 3px 0px;
+    border-radius: 6px;
+    position: absolute;
+    background-color: #F2F2F2;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 1px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-family: SFProText;
+    font-weight: 400;
+    border: solid 1px #B6B6B6;
+}
+
+.dropdown-overflow {
+    transform: translateX(-115px);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 2.5px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+}
+
+.dropdown a:hover {
+    background-color: #0670F5;
+    color: white;
+}
+
+.showDropdown {
+    display: block;
+}
+
+.dropdown-divider {
+    height: 2px;
+    background-color: #E2E2E2;
+    margin: 3px 0px 3px 0px;
+}
+
+/* Context Menu - Future Planned */
+
+/* .context-menu {
+    background-color: #F2F2F2;
+    border: solid 1px #B6B6B6;
+    box-shadow: 0px 8px 16px 1px rgba(0, 0, 0, 0.2);
+    display: none;
+    padding: 3px 0px;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    font-family: SFProText;
+    font-weight: 400;
+}
+
+.context-menu-item {
+    color: black;
+    padding: 2.5px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+}
+
+.context-menu-item:hover {
+    background-color: #0670F5;
+    color: white;
+}
+
+.context-menu-divider {
+    height: 2px;
+    background-color: #E2E2E2;
+    margin: 3px 0px 3px 0px;
+} */
