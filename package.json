@@ -1,0 +1,26 @@
+{
+  "name": "nativekit",
+  "version": "0.1.0",
+  "description": "Native UI Kit for Electron Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luciferreeves/nativekit.git"
+  },
+  "keywords": [
+    "nativekit",
+    "native",
+    "ui",
+    "electron",
+    "luciferreeves"
+  ],
+  "author": "Kumar Priyansh",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/luciferreeves/nativekit/issues"
+  },
+  "homepage": "https://github.com/luciferreeves/nativekit#readme"
+}
