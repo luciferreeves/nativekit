@@ -4,9 +4,11 @@
 
 <br>
 
+![Native Kit Banner](./banner/NativeKitBannerWhite.png)
+
 <!-- <div style="background-color:darkred; padding: 10px 5px; color: white; font-size: 14px; font-weight: 300; border-radius: 3px">Still in development. Please don't clone this repository.</div> -->
 
-Native is a new way to build Electron apps for macOS and Windows with all the native looks for the different operating systems. 
+Native Kit is a new way to build Electron apps for macOS and Windows with all the native looks for the different operating systems. 
 
 This kit would soon host different components for each of the operating systems, a website and a detailed documentation.
 
