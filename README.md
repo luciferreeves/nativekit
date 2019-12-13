@@ -1,6 +1,6 @@
 # Native Kit
 
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ` Still in development. Please don't clone this repository.` 
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ` Still in development. Please don't clone this repository.` 
 
 <br>
 
