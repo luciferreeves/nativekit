@@ -1,5 +1,5 @@
 {
-    "name": "nativeui-mac-template",
+    "name": "nativekit-mac-template",
     "version": "1.0.0",
     "description": "macOS template app for Native UI",
     "main": "main.js",
