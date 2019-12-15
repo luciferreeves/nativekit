@@ -1137,6 +1137,77 @@ h6 {
     color: #777978;
 }
 
+/* Image View */
+
+.imageview {
+    background-repeat: no-repeat;
+}
+
+.imageview.cover {
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    margin: 20px auto;
+    height: 50vh;
+    border-radius: 4px;
+}
+
+.imageview.contained-cover {
+    background-size: contain;
+    background-position: center;
+    width: 90%;
+    margin: 20px auto;
+    height: 50vh;
+    border-radius: 4px;
+}
+
+.imageview.stickTop {
+    background-size: cover;
+    background-position: center 0;
+    width: 90%;
+    margin: 20px auto;
+    height: 50vh;
+    border-radius: 4px;
+}
+
+.imageview.stickBottom {
+    background-size: cover;
+    background-position: center 100%;
+    width: 90%;
+    margin: 20px auto;
+    height: 50vh;
+    border-radius: 4px;
+}
+
+.thumbnail-small, .thumbnail-medium, .thumbnail-large {
+    display: inline-block;
+    margin: 10px 5px;
+    border-radius: 4px;
+}
+
+.thumbnail-small, .thumbnail-medium, .thumbnail-large {
+    margin: 10px 5px 10px 10px;
+}
+
+.thumbnail-small {
+    width: 64px;
+    height: 64px;
+}
+
+.thumbnail-medium {
+    width: 96px;
+    height: 96px;
+}
+
+.thumbnail-large {
+    width: 128px;
+    height: 128px;
+}
+
+.thumbnail-small.selected, .thumbnail-medium.selected, .thumbnail-large.selected{
+    border: solid 2px #0063E1;
+}
+
 /* Lists */
 
 .list {
