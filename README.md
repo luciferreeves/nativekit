@@ -24,7 +24,7 @@ Native Kit is fully free and is Open Source under the GPL Licence 3.0 or higher.
 - [x] Buttons
 - [x] Dropdown Menu *
 - [ ] Box Layouts
-- [ ] Sidebars
+- [x] Sidebars
 - [ ] Image Views
 - [ ] Outline Lists
 - [ ] Tables
@@ -35,7 +35,7 @@ Native Kit is fully free and is Open Source under the GPL Licence 3.0 or higher.
 - [ ] Split Views
 - [ ] Tab Views
 - [ ] Progress Indicators
-- [ ] Panes
+- [x] Panes
 
 
 <small>* Feature Requires additional JavaScript library to be included.</small>
