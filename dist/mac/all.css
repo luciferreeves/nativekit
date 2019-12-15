@@ -36,8 +36,9 @@ COMPONENTS IN THIS FILE:
 9. Toolbars
 10. Buttons
 11. Dropdown Menu
-. Box Layouts
-. Sidebars
+12. Box Layouts
+13. Sidebars
+14. Navigation groups
 . Image Views
 . Outline Lists
 . Tables
@@ -912,6 +913,11 @@ h6 {
     display: inline-block;
 }
 
+.button-form {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
 .button-dropdown:after {
     font-family: "entypo";
     margin-left: 5px;
@@ -1086,6 +1092,188 @@ h6 {
 
 .sidebar-transparent {
     background-color: transparent;
+}
+
+/* Navigation Groups */
+
+.nav-group {
+    font-size: 14px;
+}
+
+.nav-group .item {
+    padding: 5px 10px 4px 25px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 2px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.nav-group .item:active, .nav-group .item.active {
+    background-color: #CED1D0;
+}
+
+.nav-group .item .icon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    color: #7C7E7D;
+    margin-top: -5px;
+    margin-right: 7px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-group .title {
+    margin: 0;
+    padding: 10px 10px 4px 10px;
+    font-size: 11px;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+    color: #777978;
+}
+
+/* Lists */
+
+.list {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list * {
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.list .item {
+    padding: 10px 10px 5px 10px;
+    font-size: 12px;
+    color: #414142;
+    border-top: 1px solid #ddd;
+}
+
+.list .item:first-child {
+    border-top: 0;
+}
+
+.list .item.active, .list .item.selected {
+    color: #fff;
+    background-color: #0063E1;
+}
+
+.list .header {
+    padding: 10px;
+}
+
+.media-object {
+    margin-top: 3px;
+}
+
+.media-object.pull-left {
+    margin-right: 10px;
+}
+
+.media-object.pull-right {
+    margin-left: 10px;
+}
+
+.media-body {
+    overflow: hidden;
+}
+
+.img-circle {
+    border-radius: 50%;
+    position: relative;
+    top: -4px;
+}
+
+.img-rounded {
+    border-radius: 4px;
+}
+
+/* Forms */
+
+label {
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+input[type="search"] {
+    box-sizing: border-box;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 4px 0 0;
+    line-height: normal;
+}
+
+.form-control {
+    display: inline-block;
+    width: 100%;
+    min-height: 25px;
+    padding: 5px 10px;
+    font-size: 13px;
+    line-height: 1.6;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-control:focus {
+    border-color: #6db3fd;
+    box-shadow: 0 0 0 3px #6db3fd;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: auto;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.radio, .checkbox {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.radio label, .checkbox label {
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 4px;
+}
+
+.form-actions .button {
+    margin-right: 10px;
+}
+
+.form-actions .button:last-child {
+    margin-right: 0;
 }
 
 /* Panes */
