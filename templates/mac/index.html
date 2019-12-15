@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>macOS Native Kit</title>
     <link rel="stylesheet" href="./../../dist/mac/all.css">
-    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <!-- <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script> -->
 </head>
 
 <body>
@@ -17,31 +17,31 @@
             <h1 class="window-title">macOS Native Kit</h1>
             <div class="toolbars">
                 <div class="button-group">
+                    <button class="button button-default">
+                        <i class="icon nk-left-open"></i>
+                    </button>
+                    <button class="button button-default">
+                        <i class="icon nk-right-open"></i>
+                    </button>
+                    <button class="button button-default">
+                        <i class="icon nk-home"></i>
+                    </button>
                     <button class="button button-default button-active">
-                        <ion-icon name="home"></ion-icon>
+                        <i class="icon nk-folder"></i>
                     </button>
                     <button class="button button-default">
-                        <ion-icon name="folder"></ion-icon>
-                    </button>
-                    <button class="button button-default">
-                        <ion-icon name="cloud"></ion-icon>
-                    </button>
-                    <button class="button button-default">
-                        <ion-icon name="apps"></ion-icon>
-                    </button>
-                    <button class="button button-default">
-                        <ion-icon name="shuffle"></ion-icon>
+                        <i class="icon nk-cloud"></i>
                     </button>
                 </div>
 
                 <button class="button button-default">
-                    <ion-icon name="home"></ion-icon>
-                    <span class="icon-text">Filters</span>
+                    <i class="icon nk-home icon-text"></i>
+                    Filters
                 </button>
 
                 <div class="dropdown pull-right">
                     <button name="demoDropdown" class="button button-default button-dropdown">
-                        <ion-icon name="megaphone"></ion-icon>
+                        <i class="icon nk-megaphone"></i>
                     </button>
                     <div id="demoDropdown" class="dropdown-content dropdown-overflow">
                         <a id="shoutout">Shout Out</a>
@@ -55,9 +55,12 @@
             </div>
         </header>
         <div class="content">
-
+            <div class="pane-group">
+                <div class="pane-one-fourth sidebar">...</div>
+                <div class="pane">...</div>
+            </div>
         </div>
-        <footer class="titlebar titlebar-footer">
+        <footer class="titlebar statusbar">
             <h1 class="window-title">Footer</h1>
         </footer>
     </div>
