@@ -3,7 +3,7 @@
 
 Native Kit is a new way to build Electron apps for macOS and Windows with all the native looks for the different operating systems.
 
-[Native Kit Website](https://www.nativekit.com)
+[Native Kit Website](https://www.nativekit.co)
 
 ## Free and Open Source
 Native Kit is fully free and is Open Source under the GPL Licence 3.0 or higher. You have the freedom to clone and use the product repository, make changes, redistribute and fork and rebrand it! Go ahead, make a change!
