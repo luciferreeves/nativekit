@@ -25,11 +25,12 @@ Native Kit is fully free and is Open Source under the GPL Licence 3.0 or higher.
 - [x] Dropdown Menu *
 - [ ] Box Layouts
 - [x] Sidebars
+- [x] Navigation Groups
 - [ ] Image Views
 - [ ] Outline Lists
 - [ ] Tables
-- [ ] Lists
-- [ ] Forms
+- [x] Lists
+- [x] Forms
 - [ ] Panels
 - [ ] Popovers
 - [ ] Split Views
