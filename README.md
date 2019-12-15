@@ -10,6 +10,11 @@ Native Kit is fully free and is Open Source under the GPL Licence 3.0 or higher.
 
 ## macOS
 
+**Screenshot:**
+
+![macOS Screenshot](./banner/screenshot_macOS.png)
+« The above app was created using Native Kit! »
+
 <h3>Development Track:</h3>
 
 - [x] Font Imports - San Francisco and Entypo
@@ -27,8 +32,7 @@ Native Kit is fully free and is Open Source under the GPL Licence 3.0 or higher.
 - [x] Sidebars
 - [x] Navigation Groups
 - [x] Image Views
-- [ ] Outline Lists
-- [ ] Tables
+- [x] Tables
 - [x] Lists
 - [x] Forms
 - [ ] Panels
