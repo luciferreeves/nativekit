@@ -1,21 +1,95 @@
 ![Native Kit Banner](./banner/NativeKitBannerWhite.png)
-<!-- # Native Kit -->
 
-![Still in development. Please don't clone this repository.](https://i.ibb.co/NWYVmjZ/Screenshot-2019-12-13-at-6-22-25-AM.png)
 
+Native Kit is a new way to build Electron apps for macOS and Windows with all the native looks for the different operating systems.
+
+[Native Kit Website](https://www.nativekit.com)
+
+## Free and Open Source
+Native Kit is fully free and is Open Source under the GPL Licence 3.0 or higher. You have the freedom to clone and use the product repository, make changes, redistribute and fork and rebrand it! Go ahead, make a change!
+
+## macOS
+
+<h3>Development Track:</h3>
+
+- [x] Font Imports - San Francisco and Entypo
+- [x] Global Style Rules
+- [x] Window Wrapper
+- [x] Text Style Rules
+- [x] Floats and Clearfixes
+- [x] Paddings
+- [x] Draggable Regions
+- [x] Title Bars
+- [x] Toolbars
+- [x] Buttons
+- [x] Dropdown Menu *
+- [ ] Box Layouts
+- [ ] Sidebars
+- [ ] Image Views
+- [ ] Outline Lists
+- [ ] Tables
+- [ ] Lists
+- [ ] Forms
+- [ ] Panels
+- [ ] Popovers
+- [ ] Split Views
+- [ ] Tab Views
+- [ ] Progress Indicators
+- [ ] Panes
+
+
+<small>* Feature Requires additional JavaScript library to be included.</small>
 <br>
+<small><b>Note: </b>This list is not the complete interpretation of the features of the final product. Features will be added and removed as per the progress in the development. Windows development has not started yet and would start soon!</small>
 
+# Contributing to Native Kit
+We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
-<!-- <div style="background-color:darkred; padding: 10px 5px; color: white; font-size: 14px; font-weight: 300; border-radius: 3px">Still in development. Please don't clone this repository.</div> -->
+- Reporting a bug
+- Discussing the current state of the code
+- Submitting a fix
+- Proposing new features
+- Becoming a maintainer
 
-Native Kit is a new way to build Electron apps for macOS and Windows with all the native looks for the different operating systems. 
+## We Develop with Github
+We use github to host code, to track issues and feature requests, as well as accept pull requests.
 
-This kit would soon host different components for each of the operating systems, a website and a detailed documentation.
+## We Use [Github Flow](https://guides.github.com/introduction/flow/index.html), So All Code Changes Happen Through Pull Requests
+Pull requests are the best way to propose changes to the codebase (we use [Github Flow](https://guides.github.com/introduction/flow/index.html)). We actively welcome your pull requests:
 
-Stay tuned.
+1. Fork the repo and create your branch from `master`.
+2. If you've added code that should be tested, add tests.
+3. If you've changed APIs, update the documentation.
+4. Ensure the test suite passes.
+5. Make sure your code lints.
+6. Issue that pull request!
 
-If you want to contribute then that information would also be updated shortly.
+## Any contributions you make will be under the MIT Software License
+In short, when you submit code changes, your submissions are understood to be under the same [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/) that covers the project. Feel free to contact the maintainers if that's a concern.
 
-#### macOS Development Started!
+## Report bugs using Github's [issues](https://github.com/luciferreeves/nativekit/issues)
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/luciferreeves/nativekit/issues/new); it's that easy!
 
-#### Windows in Queue.
+**PS:** Write bug reports with detail, background, and sample code
+
+**Great Bug Reports** tend to have:
+
+- A quick summary and/or background
+- Steps to reproduce
+  - Be specific!
+  - Give sample code if you can. 
+- What you expected would happen
+- What actually happens
+- Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
+
+People *love* thorough bug reports. I'm not even kidding.
+
+## Use a Consistent Coding Style
+I'm borrowing these from [Facebook's Guidelines](https://github.com/facebook/draft-js/blob/a9316a723f9e918afde44dea68b5f9f39b7d9b00/CONTRIBUTING.md)
+
+* 2 spaces for indentation rather than tabs
+* 80 character line length
+* You can try running `npm run lint` for style unification
+
+## License
+By contributing, you agree that your contributions will be licensed under its GNU General Public License v3.0.
