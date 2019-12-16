@@ -57,12 +57,17 @@
             </div>
         </header>
         <div class="content">
+            <div class="progress-spinner" id="progress-spinner"></div>
         </div>
         <footer class="titlebar statusbar">
             <h1 class="window-title">Native Kit</h1>
         </footer>
     </div>
     <script src="./../../scripts/nativekit.js"></script>
+    <script>
+        var target = document.getElementById('progress-spinner');
+        var spinner = new Spinner().spin(target);
+    </script>
 </body>
 
 </html>
