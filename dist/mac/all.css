@@ -1104,12 +1104,14 @@ h6 {
     margin: 20px 5px;
     position: relative;
 }
+
 .sidebarSearch .form-control {
     display: inline-block;
     width: 100%;
     padding: 0px 0px 0px 25px;
     background-color: rgba(0, 0, 0, 0.089);
 }
+
 .sidebarSearch .icon {
     display: inline-block;
     position: absolute;
@@ -1274,11 +1276,11 @@ th {
     text-overflow: ellipsis;
 }
 
-tr > td:first-child {
+tr>td:first-child {
     padding-left: 35px;
 }
 
-td > img {
+td>img {
     height: 14px;
     width: 15px;
     margin-right: 5px;
@@ -1296,7 +1298,7 @@ td > img {
     top: 3px;
 }
 
-.iconed > td:first-child {
+.iconed>td:first-child {
     padding-left: 16px !important;
 }
 
@@ -1309,7 +1311,8 @@ td {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-td:empty::after{
+
+td:empty::after {
     content: "\00a0";
 }
 
@@ -1455,6 +1458,577 @@ textarea {
 .form-actions .button:last-child {
     margin-right: 0;
 }
+
+/* Progress Indicators */
+
+
+progress {
+    width: 100%;
+}
+
+progress.mini {
+    width: 80px;
+}
+
+progress.small {
+    width: 180px;
+}
+
+progress.normal {
+    width: 240px;
+}
+
+progress.large {
+    width: 360px;
+}
+
+progress.one-fourth {
+    width: 25%;
+}
+
+progress.one-third {
+    width: 33.3%;
+}
+
+progress.half {
+    width: 50%;
+}
+
+progress.two-third {
+    width: 66.7%;
+}
+
+progress.three-quarter {
+    width: 75%;
+}
+
+.progress-circle {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    border: solid 1px #939393;
+    display: inline-block;
+    margin-bottom: -7px;
+    background: linear-gradient(to right, #EDEDED 50%, #777777 50%);
+}
+
+.progress-circle:before {
+    border-radius: 0 100% 100% 0 / 50%;
+    content: '';
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    -webkit-transform-origin: left;
+    transform-origin: left;
+}
+
+.progress-0:before {
+    background: #EDEDED;
+    transform: rotate(0deg);
+}
+.progress-1:before {
+    background: #EDEDED;
+    transform: rotate(3.6deg);
+}
+
+.progress-2:before {
+    background: #EDEDED;
+    transform: rotate(7.2deg);
+}
+
+.progress-3:before {
+    background: #EDEDED;
+    transform: rotate(10.8deg);
+}
+
+.progress-4:before {
+    background: #EDEDED;
+    transform: rotate(14.4deg);
+}
+
+.progress-5:before {
+    background: #EDEDED;
+    transform: rotate(18deg);
+}
+
+.progress-6:before {
+    background: #EDEDED;
+    transform: rotate(21.6deg);
+}
+
+.progress-7:before {
+    background: #EDEDED;
+    transform: rotate(25.2deg);
+}
+
+.progress-8:before {
+    background: #EDEDED;
+    transform: rotate(28.8deg);
+}
+
+.progress-9:before {
+    background: #EDEDED;
+    transform: rotate(32.4deg);
+}
+
+.progress-10:before {
+    background: #EDEDED;
+    transform: rotate(36deg);
+}
+
+.progress-11:before {
+    background: #EDEDED;
+    transform: rotate(39.6deg);
+}
+
+.progress-12:before {
+    background: #EDEDED;
+    transform: rotate(43.2deg);
+}
+
+.progress-13:before {
+    background: #EDEDED;
+    transform: rotate(46.8deg);
+}
+
+.progress-14:before {
+    background: #EDEDED;
+    transform: rotate(50.4deg);
+}
+
+.progress-15:before {
+    background: #EDEDED;
+    transform: rotate(54deg);
+}
+
+.progress-16:before {
+    background: #EDEDED;
+    transform: rotate(57.6deg);
+}
+
+.progress-17:before {
+    background: #EDEDED;
+    transform: rotate(61.2deg);
+}
+
+.progress-18:before {
+    background: #EDEDED;
+    transform: rotate(64.8deg);
+}
+
+.progress-19:before {
+    background: #EDEDED;
+    transform: rotate(68.4deg);
+}
+
+.progress-20:before {
+    background: #EDEDED;
+    transform: rotate(72deg);
+}
+
+.progress-21:before {
+    background: #EDEDED;
+    transform: rotate(75.6deg);
+}
+
+.progress-22:before {
+    background: #EDEDED;
+    transform: rotate(79.2deg);
+}
+
+.progress-23:before {
+    background: #EDEDED;
+    transform: rotate(82.8deg);
+}
+
+.progress-24:before {
+    background: #EDEDED;
+    transform: rotate(86.4deg);
+}
+
+.progress-25:before {
+    background: #EDEDED;
+    transform: rotate(90deg);
+}
+
+.progress-26:before {
+    background: #EDEDED;
+    transform: rotate(93.6deg);
+}
+
+.progress-27:before {
+    background: #EDEDED;
+    transform: rotate(97.2deg);
+}
+
+.progress-28:before {
+    background: #EDEDED;
+    transform: rotate(100.8deg);
+}
+
+.progress-29:before {
+    background: #EDEDED;
+    transform: rotate(104.4deg);
+}
+
+.progress-30:before {
+    background: #EDEDED;
+    transform: rotate(108deg);
+}
+
+.progress-31:before {
+    background: #EDEDED;
+    transform: rotate(111.6deg);
+}
+
+.progress-32:before {
+    background: #EDEDED;
+    transform: rotate(115.2deg);
+}
+
+.progress-33:before {
+    background: #EDEDED;
+    transform: rotate(118.8deg);
+}
+
+.progress-34:before {
+    background: #EDEDED;
+    transform: rotate(122.4deg);
+}
+
+.progress-35:before {
+    background: #EDEDED;
+    transform: rotate(126deg);
+}
+
+.progress-36:before {
+    background: #EDEDED;
+    transform: rotate(129.6deg);
+}
+
+.progress-37:before {
+    background: #EDEDED;
+    transform: rotate(133.2deg);
+}
+
+.progress-38:before {
+    background: #EDEDED;
+    transform: rotate(136.8deg);
+}
+
+.progress-39:before {
+    background: #EDEDED;
+    transform: rotate(140.4deg);
+}
+
+.progress-40:before {
+    background: #EDEDED;
+    transform: rotate(144deg);
+}
+
+.progress-41:before {
+    background: #EDEDED;
+    transform: rotate(147.6deg);
+}
+
+.progress-42:before {
+    background: #EDEDED;
+    transform: rotate(151.2deg);
+}
+
+.progress-43:before {
+    background: #EDEDED;
+    transform: rotate(154.8deg);
+}
+
+.progress-44:before {
+    background: #EDEDED;
+    transform: rotate(158.4deg);
+}
+
+.progress-45:before {
+    background: #EDEDED;
+    transform: rotate(162deg);
+}
+
+.progress-46:before {
+    background: #EDEDED;
+    transform: rotate(165.6deg);
+}
+
+.progress-47:before {
+    background: #EDEDED;
+    transform: rotate(169.2deg);
+}
+
+.progress-48:before {
+    background: #EDEDED;
+    transform: rotate(172.8deg);
+}
+
+.progress-49:before {
+    background: #EDEDED;
+    transform: rotate(176.4deg);
+}
+
+.progress-50:before {
+    background: #EDEDED;
+    transform: rotate(180deg);
+}
+
+.progress-51:before {
+    background: #777;
+    transform: rotate(3.6deg);
+}
+
+.progress-52:before {
+    background: #777;
+    transform: rotate(7.2deg);
+}
+
+.progress-53:before {
+    background: #777;
+    transform: rotate(10.8deg);
+}
+
+.progress-54:before {
+    background: #777;
+    transform: rotate(14.4deg);
+}
+
+.progress-55:before {
+    background: #777;
+    transform: rotate(18deg);
+}
+
+.progress-56:before {
+    background: #777;
+    transform: rotate(21.6deg);
+}
+
+.progress-57:before {
+    background: #777;
+    transform: rotate(25.2deg);
+}
+
+.progress-58:before {
+    background: #777;
+    transform: rotate(28.8deg);
+}
+
+.progress-59:before {
+    background: #777;
+    transform: rotate(32.4deg);
+}
+
+.progress-60:before {
+    background: #777;
+    transform: rotate(36deg);
+}
+
+.progress-61:before {
+    background: #777;
+    transform: rotate(39.6deg);
+}
+
+.progress-62:before {
+    background: #777;
+    transform: rotate(43.2deg);
+}
+
+.progress-63:before {
+    background: #777;
+    transform: rotate(46.8deg);
+}
+
+.progress-64:before {
+    background: #777;
+    transform: rotate(50.4deg);
+}
+
+.progress-65:before {
+    background: #777;
+    transform: rotate(54deg);
+}
+
+.progress-66:before {
+    background: #777;
+    transform: rotate(57.6deg);
+}
+
+.progress-67:before {
+    background: #777;
+    transform: rotate(61.2deg);
+}
+
+.progress-68:before {
+    background: #777;
+    transform: rotate(64.8deg);
+}
+
+.progress-69:before {
+    background: #777;
+    transform: rotate(68.4deg);
+}
+
+.progress-70:before {
+    background: #777;
+    transform: rotate(72deg);
+}
+
+.progress-71:before {
+    background: #777;
+    transform: rotate(75.6deg);
+}
+
+.progress-72:before {
+    background: #777;
+    transform: rotate(79.2deg);
+}
+
+.progress-73:before {
+    background: #777;
+    transform: rotate(82.8deg);
+}
+
+.progress-74:before {
+    background: #777;
+    transform: rotate(86.4deg);
+}
+
+.progress-75:before {
+    background: #777;
+    transform: rotate(90deg);
+}
+
+.progress-76:before {
+    background: #777;
+    transform: rotate(93.6deg);
+}
+
+.progress-77:before {
+    background: #777;
+    transform: rotate(97.2deg);
+}
+
+.progress-78:before {
+    background: #777;
+    transform: rotate(100.8deg);
+}
+
+.progress-79:before {
+    background: #777;
+    transform: rotate(104.4deg);
+}
+
+.progress-80:before {
+    background: #777;
+    transform: rotate(108deg);
+}
+
+.progress-81:before {
+    background: #777;
+    transform: rotate(111.6deg);
+}
+
+.progress-82:before {
+    background: #777;
+    transform: rotate(115.2deg);
+}
+
+.progress-83:before {
+    background: #777;
+    transform: rotate(118.8deg);
+}
+
+.progress-84:before {
+    background: #777;
+    transform: rotate(122.4deg);
+}
+
+.progress-85:before {
+    background: #777;
+    transform: rotate(126deg);
+}
+
+.progress-86:before {
+    background: #777;
+    transform: rotate(129.6deg);
+}
+
+.progress-87:before {
+    background: #777;
+    transform: rotate(133.2deg);
+}
+
+.progress-88:before {
+    background: #777;
+    transform: rotate(136.8deg);
+}
+
+.progress-89:before {
+    background: #777;
+    transform: rotate(140.4deg);
+}
+
+.progress-90:before {
+    background: #777;
+    transform: rotate(144deg);
+}
+
+.progress-91:before {
+    background: #777;
+    transform: rotate(147.6deg);
+}
+
+.progress-92:before {
+    background: #777;
+    transform: rotate(151.2deg);
+}
+
+.progress-93:before {
+    background: #777;
+    transform: rotate(154.8deg);
+}
+
+.progress-94:before {
+    background: #777;
+    transform: rotate(158.4deg);
+}
+
+.progress-95:before {
+    background: #777;
+    transform: rotate(162deg);
+}
+
+.progress-96:before {
+    background: #777;
+    transform: rotate(165.6deg);
+}
+
+.progress-97:before {
+    background: #777;
+    transform: rotate(169.2deg);
+}
+
+.progress-98:before {
+    background: #777;
+    transform: rotate(172.8deg);
+}
+
+.progress-99:before {
+    background: #777;
+    transform: rotate(176.4deg);
+}
+
+.progress-100:before {
+    background: #777;
+    transform: rotate(180deg);
+}
+
+
 
 /* Panes */
 
