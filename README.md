@@ -39,7 +39,7 @@ Native Kit is fully free and is Open Source under the GPL Licence 3.0 or higher.
 - [ ] Popovers
 - [ ] Split Views
 - [ ] Tab Views
-- [ ] Progress Indicators
+- [x] Progress Indicators
 - [x] Panes
 
 
