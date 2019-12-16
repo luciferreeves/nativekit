@@ -40,7 +40,7 @@ Native Kit is fully free and is Open Source under the GPL Licence 3.0 or higher.
 - [ ] Split Views
 - [ ] Tab Views
 - [x] Progress Indicators
-- [x] Intderminate Progress Spinner*
+- [x] Indeterminate Progress Spinner *
 - [x] Panes
 
 
