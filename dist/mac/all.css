@@ -39,18 +39,18 @@ COMPONENTS IN THIS FILE:
 12. Box Layouts
 13. Sidebars
 14. Navigation groups
-. Image Views
-. Outline Lists
-. Tables
-. Lists
-. Forms
-. Panels
-. Popovers
-. Split Views
-. Tab Views
-. Progress Indicators
-. Panes
-. Icons
+15. Image Views
+16. Tables
+17. Lists
+18. Forms
+19. Panels
+20. Popovers
+21. Split Views
+22. Tab Views
+23. Progress Indicators
+24. Intderminate Progress Spinner
+25. Panes
+26. Icons
 
 */
 
@@ -1461,7 +1461,6 @@ textarea {
 
 /* Progress Indicators */
 
-
 progress {
     width: 100%;
 }
@@ -1528,6 +1527,7 @@ progress.three-quarter {
     background: #EDEDED;
     transform: rotate(0deg);
 }
+
 .progress-1:before {
     background: #EDEDED;
     transform: rotate(3.6deg);
@@ -2028,7 +2028,61 @@ progress.three-quarter {
     transform: rotate(180deg);
 }
 
+/* Intderminate Progress Spinner */
 
+.progress-spinner {
+    display: inline-block;
+}
+
+.progress-spinner > .spinner {
+    height: 20px;
+    position: relative;
+    top: 11px;
+    left: 17px;
+    display: inline-block;
+}
+
+@keyframes spinner-line-fade-more {
+    0%, 100% {
+        opacity: 0;
+        /* minimum opacity */
+    }
+    1% {
+        opacity: 1;
+    }
+}
+
+@keyframes spinner-line-fade-quick {
+    0%, 39%, 100% {
+        opacity: 0.25;
+        /* minimum opacity */
+    }
+    40% {
+        opacity: 1;
+    }
+}
+
+@keyframes spinner-line-fade-default {
+    0%, 100% {
+        opacity: 0.22;
+        /* minimum opacity */
+    }
+    1% {
+        opacity: 1;
+    }
+}
+
+@keyframes spinner-line-shrink {
+    0%, 25%, 100% {
+        /* minimum scale and opacity */
+        transform: scale(0.5);
+        opacity: 0.25;
+    }
+    26% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
 
 /* Panes */
 
