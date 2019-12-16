@@ -48,7 +48,7 @@ COMPONENTS IN THIS FILE:
 21. Split Views
 22. Tab Views
 23. Progress Indicators
-24. Intderminate Progress Spinner
+24. Indeterminate Progress Spinner
 25. Panes
 26. Icons
 
@@ -2028,7 +2028,7 @@ progress.three-quarter {
     transform: rotate(180deg);
 }
 
-/* Intderminate Progress Spinner */
+/* Indeterminate Progress Spinner */
 
 .progress-spinner {
     display: inline-block;
