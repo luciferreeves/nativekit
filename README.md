@@ -1,4 +1,5 @@
-![Native Kit Banner](./banner/NativeKitBannerWhite.png)
+![Travis (.org)](https://img.shields.io/travis/luciferreeves/nativekit?style=for-the-badge) ![GitHub](https://img.shields.io/github/license/luciferreeves/nativekit?style=for-the-badge) ![Website](https://img.shields.io/website?down_message=Offline&style=for-the-badge&up_message=NativeKit.co&url=https%3A%2F%2Fwww.nativekit.co) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/luciferreeves/nativekit/dev/electron?label=Requires%20Electron&logo=electron&logoColor=white&style=for-the-badge)
+![Native Kit Banner](./banner/NativeKitBannerWhite.png) 
 
 
 Native Kit is a new way to build Electron apps for macOS and Windows with all the native looks for the different operating systems.
