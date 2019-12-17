@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/luciferreeves/nativekit/issues"
   },
-  "homepage": "https://github.com/luciferreeves/nativekit#readme",
+  "homepage": "https://www.nativekit.co",
   "devDependencies": {
     "electron": "7.1.4"
   }
