@@ -4,7 +4,10 @@
   "description": "Native UI Kit for Electron Framework",
   "scripts": {
     "start-mac-template": "electron templates/mac",
-    "start-win-template": "electron templates/win"
+    "start-win-template": "electron templates/win",
+    "build-mac": "NODE_ENV=production node index.js buildForMac",
+    "build-win": "NODE_ENV=production node index.js buildForWin",
+    "build": "NODE_ENV=production node index.js build"
   },
   "repository": {
     "type": "git",
@@ -25,5 +28,9 @@
   "homepage": "https://www.nativekit.co",
   "devDependencies": {
     "electron": "7.1.4"
+  },
+  "dependencies": {
+    "make-dir": "^3.0.0",
+    "ncp": "^2.0.0"
   }
 }
