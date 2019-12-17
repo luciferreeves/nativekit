@@ -58,358 +58,358 @@ COMPONENTS IN THIS FILE:
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-Ultralight.otf');
+    src: url('../fonts/SF-Pro-Display-Ultralight.otf');
     font-weight: 100;
 }
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-UltralightItalic.otf');
+    src: url('../fonts/SF-Pro-Display-UltralightItalic.otf');
     font-weight: 100;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-Thin.otf');
+    src: url('../fonts/SF-Pro-Display-Thin.otf');
     font-weight: 200;
 }
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-ThinItalic.otf');
+    src: url('../fonts/SF-Pro-Display-ThinItalic.otf');
     font-weight: 200;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-Light.otf');
+    src: url('../fonts/SF-Pro-Display-Light.otf');
     font-weight: 300;
 }
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-LightItalic.otf');
+    src: url('../fonts/SF-Pro-Display-LightItalic.otf');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-Regular.otf');
+    src: url('../fonts/SF-Pro-Display-Regular.otf');
     font-weight: 400;
 }
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-RegularItalic.otf');
+    src: url('../fonts/SF-Pro-Display-RegularItalic.otf');
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-Medium.otf');
+    src: url('../fonts/SF-Pro-Display-Medium.otf');
     font-weight: 500;
 }
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-MediumItalic.otf');
+    src: url('../fonts/SF-Pro-Display-MediumItalic.otf');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-Semibold.otf');
+    src: url('../fonts/SF-Pro-Display-Semibold.otf');
     font-weight: 600;
 }
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-SemiboldItalic.otf');
+    src: url('../fonts/SF-Pro-Display-SemiboldItalic.otf');
     font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-Bold.otf');
+    src: url('../fonts/SF-Pro-Display-Bold.otf');
     font-weight: 700;
 }
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-BoldItalic.otf');
+    src: url('../fonts/SF-Pro-Display-BoldItalic.otf');
     font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-Heavy.otf');
+    src: url('../fonts/SF-Pro-Display-Heavy.otf');
     font-weight: 800;
 }
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-HeavyItalic.otf');
+    src: url('../fonts/SF-Pro-Display-HeavyItalic.otf');
     font-weight: 800;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-Black.otf');
+    src: url('../fonts/SF-Pro-Display-Black.otf');
     font-weight: 900;
 }
 
 @font-face {
     font-family: SFProDisplay;
-    src: url('../../fonts/mac/SF-Pro-Display-BlackItalic.otf');
+    src: url('../fonts/SF-Pro-Display-BlackItalic.otf');
     font-weight: 900;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-Ultralight.otf');
+    src: url('../fonts/SF-Pro-Rounded-Ultralight.otf');
     font-weight: 100;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-UltralightItalic.otf');
+    src: url('../fonts/SF-Pro-Rounded-UltralightItalic.otf');
     font-weight: 100;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-Thin.otf');
+    src: url('../fonts/SF-Pro-Rounded-Thin.otf');
     font-weight: 200;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-ThinItalic.otf');
+    src: url('../fonts/SF-Pro-Rounded-ThinItalic.otf');
     font-weight: 200;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-Light.otf');
+    src: url('../fonts/SF-Pro-Rounded-Light.otf');
     font-weight: 300;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-LightItalic.otf');
+    src: url('../fonts/SF-Pro-Rounded-LightItalic.otf');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-Regular.otf');
+    src: url('../fonts/SF-Pro-Rounded-Regular.otf');
     font-weight: 400;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-RegularItalic.otf');
+    src: url('../fonts/SF-Pro-Rounded-RegularItalic.otf');
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-Medium.otf');
+    src: url('../fonts/SF-Pro-Rounded-Medium.otf');
     font-weight: 500;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-MediumItalic.otf');
+    src: url('../fonts/SF-Pro-Rounded-MediumItalic.otf');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-Semibold.otf');
+    src: url('../fonts/SF-Pro-Rounded-Semibold.otf');
     font-weight: 600;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-SemiboldItalic.otf');
+    src: url('../fonts/SF-Pro-Rounded-SemiboldItalic.otf');
     font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-Bold.otf');
+    src: url('../fonts/SF-Pro-Rounded-Bold.otf');
     font-weight: 700;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-BoldItalic.otf');
+    src: url('../fonts/SF-Pro-Rounded-BoldItalic.otf');
     font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-Heavy.otf');
+    src: url('../fonts/SF-Pro-Rounded-Heavy.otf');
     font-weight: 800;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-HeavyItalic.otf');
+    src: url('../fonts/SF-Pro-Rounded-HeavyItalic.otf');
     font-weight: 800;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-Black.otf');
+    src: url('../fonts/SF-Pro-Rounded-Black.otf');
     font-weight: 900;
 }
 
 @font-face {
     font-family: SFProRounded;
-    src: url('../../fonts/mac/SF-Pro-Rounded-BlackItalic.otf');
+    src: url('../fonts/SF-Pro-Rounded-BlackItalic.otf');
     font-weight: 900;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-Ultralight.otf');
+    src: url('../fonts/SF-Pro-Text-Ultralight.otf');
     font-weight: 100;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-UltralightItalic.otf');
+    src: url('../fonts/SF-Pro-Text-UltralightItalic.otf');
     font-weight: 100;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-Thin.otf');
+    src: url('../fonts/SF-Pro-Text-Thin.otf');
     font-weight: 200;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-ThinItalic.otf');
+    src: url('../fonts/SF-Pro-Text-ThinItalic.otf');
     font-weight: 200;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-Light.otf');
+    src: url('../fonts/SF-Pro-Text-Light.otf');
     font-weight: 300;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-LightItalic.otf');
+    src: url('../fonts/SF-Pro-Text-LightItalic.otf');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-Regular.otf');
+    src: url('../fonts/SF-Pro-Text-Regular.otf');
     font-weight: 400;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-RegularItalic.otf');
+    src: url('../fonts/SF-Pro-Text-RegularItalic.otf');
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-Medium.otf');
+    src: url('../fonts/SF-Pro-Text-Medium.otf');
     font-weight: 500;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-MediumItalic.otf');
+    src: url('../fonts/SF-Pro-Text-MediumItalic.otf');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-Semibold.otf');
+    src: url('../fonts/SF-Pro-Text-Semibold.otf');
     font-weight: 600;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-SemiboldItalic.otf');
+    src: url('../fonts/SF-Pro-Text-SemiboldItalic.otf');
     font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-Bold.otf');
+    src: url('../fonts/SF-Pro-Text-Bold.otf');
     font-weight: 700;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-BoldItalic.otf');
+    src: url('../fonts/SF-Pro-Text-BoldItalic.otf');
     font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-Heavy.otf');
+    src: url('../fonts/SF-Pro-Text-Heavy.otf');
     font-weight: 800;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-HeavyItalic.otf');
+    src: url('../fonts/SF-Pro-Text-HeavyItalic.otf');
     font-weight: 800;
     font-style: italic;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-Black.otf');
+    src: url('../fonts/SF-Pro-Text-Black.otf');
     font-weight: 900;
 }
 
 @font-face {
     font-family: SFProText;
-    src: url('../../fonts/mac/SF-Pro-Text-BlackItalic.otf');
+    src: url('../fonts/SF-Pro-Text-BlackItalic.otf');
     font-weight: 900;
     font-style: italic;
 }
 
 @font-face {
     font-family: entypo;
-    src: url('../../fonts/entypo/entypo.ttf');
+    src: url('../fonts/entypo.ttf');
 }
 
 /* Global Styles */
