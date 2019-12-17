@@ -27,9 +27,7 @@
   },
   "homepage": "https://www.nativekit.co",
   "devDependencies": {
-    "electron": "7.1.4"
-  },
-  "dependencies": {
+    "electron": "7.1.4",
     "make-dir": "^3.0.0",
     "ncp": "^2.0.0"
   }
