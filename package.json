@@ -7,7 +7,8 @@
     "start-win-template": "electron templates/win",
     "build-mac": "NODE_ENV=production node index.js buildForMac",
     "build-win": "NODE_ENV=production node index.js buildForWin",
-    "build": "NODE_ENV=production node index.js build"
+    "build": "NODE_ENV=production node index.js build",
+    "test": "NODE_ENV=production node index.js build"
   },
   "repository": {
     "type": "git",
