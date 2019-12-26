@@ -1046,6 +1046,25 @@ h6 {
     margin: 3px 0px 3px 0px;
 }
 
+/* Box Layout */
+
+.box-layout {
+    background-color: #E3E3E3;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px 15px 10px 15px;
+    border: solid 1px #D4D4D4;
+    border-radius: 4px;
+}
+
+.boxed {    
+    
+    /* For adding to content only */
+
+    background-color: #ECECEC;
+
+}
+
 /* Context Menu - Future Planned */
 
 /* .context-menu {
