@@ -43,12 +43,11 @@ COMPONENTS IN THIS FILE:
 16. Tables
 17. Lists
 18. Forms
-19. Popovers
-20. Tab Views
-21. Progress Indicators
-22. Indeterminate Progress Spinner
-23. Panes
-24. Icons
+19. Tab Views
+20. Progress Indicators
+21. Indeterminate Progress Spinner
+22. Panes
+23. Icons
 
 */
 
@@ -1099,8 +1098,6 @@ h6 {
     background-color: #E2E2E2;
     margin: 3px 0px 3px 0px;
 } */
-
-/* Box Layout */
 
 /* Sidebars */
 
