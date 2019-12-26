@@ -30,7 +30,7 @@ Native Kit is fully free and is Open Source under the GPL Licence 3.0 or higher.
 - [x] Toolbars
 - [x] Buttons
 - [x] Dropdown Menu *
-- [ ] Box Layouts
+- [x] Box Layouts
 - [x] Sidebars
 - [x] Navigation Groups
 - [x] Image Views
