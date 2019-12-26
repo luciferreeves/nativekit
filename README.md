@@ -19,7 +19,9 @@ Native Kit is fully free and is Open Source under the GPL Licence 3.0 or higher.
 
 <h3>Development Track:</h3>
 
+- [ ] Documentation
 - [x] Font Imports - San Francisco and Entypo
+- [x] Dark Mode
 - [x] Global Style Rules
 - [x] Window Wrapper
 - [x] Text Style Rules
