@@ -24,7 +24,7 @@ var defaults = {
     length: 10,
     width: 5,
     radius: 10,
-    scale: 0.45,
+    scale: 0.35,
     corners: 1,
     color: '#000',
     fadeColor: 'transparent',
