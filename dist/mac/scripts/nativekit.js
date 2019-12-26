@@ -234,10 +234,10 @@ function convertOffset(x, y, degrees) {
               str+='.arrow_left_'+this.options.themeName+':after{right: 100%;top: 50%;border-right-color: #fff;margin-top: -10px;}.arrow_left_'+this.options.themeName+':before{right: 100%;top: 50%;border-right-color: rgba(0, 0, 0, 0.2);margin-top: -11px;}';
               str+='.arrow_right_'+this.options.themeName+':after{left: 100%;top: 50%;border-left-color: #fff;margin-top: -10px;}.arrow_right_'+this.options.themeName+':before{left: 100%;top: 50%;border-left-color: rgba(0, 0, 0, 0.2);margin-top: -11px;}';
   
-          // set styles for popover
+          
           $( "<style type='text/css' id='popover_styles_default'>"+str+"</style>" ).appendTo( "head" );
   
-          // set styles for progressbar
+          
           str = '.fu_progress{overflow: hidden;height: 20px;margin-bottom: 10px;background-color: #f5f5f5;border-radius: 4px;-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);}';
           str+='.fu_progress_bar{float: left;width: 0%;height: 100%;font-size: 12px;line-height: 20px;color: #ffffff;text-align: center;background-color: #337ab7;-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);-webkit-transition: width 0.6s ease;-o-transition: width 0.6s ease;transition: width 0.6s ease;}';
   
@@ -270,7 +270,7 @@ function convertOffset(x, y, degrees) {
              this.options.placement === 'left' ? 'arrow_right_'+this.options.themeName :
              this.options.placement === 'right' ? 'arrow_left_'+this.options.themeName : '';
     }
-  //**************  Events
+
     popover.prototype.initDismissableEvent = function(){
   
       var id = this.popoverId;
@@ -323,10 +323,7 @@ function convertOffset(x, y, degrees) {
         $(elem).popover("show");
       });
     };
-  
-    //**************  Events
-  
-    // Show /hide /destroy
+    
       popover.prototype.display = function(option){
   
         var id = this.popoverId;
