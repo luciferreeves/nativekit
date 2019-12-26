@@ -1055,6 +1055,7 @@ h6 {
     padding: 10px 15px 10px 15px;
     border: solid 1px #D4D4D4;
     border-radius: 4px;
+    position: relative;
 }
 
 .boxed {    
