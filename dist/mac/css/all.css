@@ -547,6 +547,11 @@ body {
     background-color: #fff;
 }
 
+.window.dark {
+    background-color: #2F3231;
+    color: white;
+}
+
 .window-vibrant {
     position: absolute;
     top: 0;
@@ -757,6 +762,13 @@ h6 {
     border-bottom: 1px solid #c2c0c2;
 }
 
+.dark .titlebar {
+    background-color: #000000;
+    background-image: linear-gradient(to right, #4A4D4C 0%, #3F4141 100%);
+    box-shadow: inset 0 1px 0 #000000;
+    border-bottom: 1px solid #000000;
+}
+
 .titlebar:before, .titlebar:after {
     display: table;
     content: " ";
@@ -774,6 +786,11 @@ h6 {
     border-top: 1px solid #c2c0c2;
 }
 
+.dark .statusbar {
+    border-top: 1px solid #595B5A;
+    border-bottom: 1px solid #595B5A;
+}
+
 .window-title {
     margin: 0;
     font-size: 12px;
@@ -783,6 +800,10 @@ h6 {
     cursor: default;
     position: relative;
     top: 3px;
+}
+
+.dark .window-title {
+    color: white;
 }
 
 /* Toolbars */
@@ -819,7 +840,7 @@ h6 {
 
 .button {
     display: inline-block;
-    padding: 3px 8px;
+    padding: 2px 8px;
     margin-bottom: 0;
     font-size: 12px;
     line-height: 1.4;
@@ -840,14 +861,6 @@ h6 {
     box-shadow: none;
 }
 
-.button-mini {
-    padding: 2px 6px;
-}
-
-.button-large {
-    padding: 6px 12px;
-}
-
 .button-form {
     padding-right: 20px;
     padding-left: 20px;
@@ -865,8 +878,25 @@ h6 {
     background-image: linear-gradient(to bottom, #fcfcfc 0%, #f1f1f1 100%);
 }
 
+.dark .button-default {
+    color: #FFFFFF;
+    border-top-color: #535353;
+    border-right-color: #535353;
+    border-bottom-color: #535353;
+    border-left-color: #535353;
+    background-color: #5D5D5D;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5D5D5D), color-stop(100%, #5D5D5D));
+    background-image: -webkit-linear-gradient(top, #5D5D5D 0%, #5D5D5D 100%);
+    background-image: linear-gradient(to bottom, #5D5D5D 0%, #5D5D5D 100%);
+}
+
 .button-default:active {
     background-color: #ddd;
+    background-image: none;
+}
+
+.dark .button-default:active {
+    background-color: #898C8B;
     background-image: none;
 }
 
@@ -884,6 +914,15 @@ h6 {
     background-image: linear-gradient(to bottom, #6eb4f7 0%, #1a82fb 100%);
 }
 
+.dark .button-blue {
+    border-color: #1769E6;
+    border-bottom-color: #155FCF;
+    background-color: #1769E6;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1769E6), color-stop(100%, #155FCF));
+    background-image: -webkit-linear-gradient(top, #1769E6 0%, #155FCF 100%);
+    background-image: linear-gradient(to bottom, #1769E6 0%, #155FCF 100%);
+}
+
 .button-blue:active {
     background-color: #3e9bf4;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3e9bf4), color-stop(100%, #0469de));
@@ -898,6 +937,17 @@ h6 {
     margin-top: 1px;
     margin-bottom: 1px;
     color: #737475;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.dark .button i {
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: #FFFFFF;
     font-size: 14px;
     line-height: 1;
 }
@@ -978,10 +1028,24 @@ h6 {
     background-image: none;
 }
 
+.dark .button-group .button-active {
+    color: #434646;
+    border: 1px solid transparent;
+    background-color: #CFD2D2;
+    background-image: none;
+}
+
 .button-active {
     color: #fff;
     border: 1px solid transparent;
     background-color: #6d6c6d;
+    background-image: none;
+}
+
+.dark .button-active {
+    color: #434646;
+    border: 1px solid transparent;
+    background-color: #CFD2D2;
     background-image: none;
 }
 
@@ -991,6 +1055,14 @@ h6 {
 
 .button-group .button-active i {
     color: #fff;
+}
+
+.dark .button-active i {
+    color: #434646;
+}
+
+.dark .button-group .button-active i {
+    color: #434646;
 }
 
 /* Dropdown Menu */
@@ -1015,12 +1087,25 @@ h6 {
     border: solid 1px #B6B6B6;
 }
 
+.dark .dropdown-content {
+    background-color: #282828;
+    border: solid 1px #484848;
+}
+
 .dropdown-overflow {
     transform: translateX(-115px);
 }
 
 .dropdown-content a {
     color: black;
+    padding: 2.5px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+}
+
+.dark .dropdown-content a {
+    color: white;
     padding: 2.5px 16px;
     text-decoration: none;
     display: block;
@@ -1034,12 +1119,17 @@ h6 {
 
 .showDropdown {
     display: block;
-    ;
 }
 
 .dropdown-divider {
     height: 2px;
     background-color: #E2E2E2;
+    margin: 3px 0px 3px 0px;
+}
+
+.dark .dropdown-divider {
+    height: 2px;
+    background-color: #4C4C4C;
     margin: 3px 0px 3px 0px;
 }
 
@@ -1055,12 +1145,18 @@ h6 {
     position: relative;
 }
 
-.boxed {    
-    
+.dark .box-layout {
+    background-color: #474A49;
+    border: solid 1px #5D605F;
+}
+
+.boxed {
     /* For adding to content only */
-
     background-color: #ECECEC;
+}
 
+.dark .boxed {
+    background-color: #424443;
 }
 
 /* Context Menu - Future Planned */
@@ -1103,6 +1199,10 @@ h6 {
 
 .sidebar {
     background-color: #f5f5f4;
+}
+
+.dark .sidebar {
+    background-color: #3B3E3D;
 }
 
 .sidebar-transparent {
@@ -1148,8 +1248,16 @@ h6 {
     font-weight: 400;
 }
 
+.dark .nav-group .item {
+    color: #fff;
+}
+
 .nav-group .item:active, .nav-group .item.active {
     background-color: #CED1D0;
+}
+
+.dark .nav-group .item:active, .dark .nav-group .item.active {
+    background-color: #5F6261;
 }
 
 .nav-group .item .icon {
@@ -1163,6 +1271,10 @@ h6 {
     text-align: center;
 }
 
+.dark .nav-group .item .icon {
+    color: #B1B4B3;
+}
+
 .nav-group .title {
     margin: 0;
     padding: 10px 10px 4px 10px;
@@ -1170,6 +1282,10 @@ h6 {
     letter-spacing: 0.1px;
     font-weight: 500;
     color: #777978;
+}
+
+.dark .nav-group .title {
+    color: #B1B4B3;
 }
 
 /* Image View */
@@ -1257,12 +1373,24 @@ thead {
     background-color: #F0F0F0;
 }
 
+.dark thead {
+    background-color: #3E4240;
+}
+
 tbody {
     background-color: #fff;
 }
 
+.dark tbody {
+    background-color: #383B3A;
+}
+
 .table-striped tr:nth-child(even) {
     background-color: #F4F5F5;
+}
+
+.dark .table-striped tr:nth-child(even) {
+    background-color: #2E3130;
 }
 
 tr:active, .table-striped tr:active:nth-child(even) {
@@ -1278,6 +1406,11 @@ tr.active, .table-striped tr.active:nth-child(even) {
 thead tr:active {
     color: #333;
     background-color: #f5f5f4;
+}
+
+.dark thead tr:active {
+    background-color: #333;
+    color: #f5f5f4;
 }
 
 th {
@@ -1304,7 +1437,14 @@ td>img {
     top: 2px;
 }
 
-.iconed i {
+
+.iconed>td:first-child {
+    padding-left: 16px !important;
+}
+
+.iconed>td:first-child::before {
+    font-family: "entypo";
+    content: '\e885';
     font-size: 22px;
     color: #7A7A7A;
     line-height: 0px;
@@ -1313,8 +1453,15 @@ td>img {
     top: 3px;
 }
 
-.iconed>td:first-child {
-    padding-left: 16px !important;
+.dark .iconed>td:first-child::before {
+    font-family: "entypo";
+    content: '\e885';
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 0px;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
 }
 
 td {
@@ -1356,6 +1503,11 @@ th:last-child, td:last-child {
     font-size: 12px;
     color: #414142;
     border-top: 1px solid #ddd;
+}
+
+.dark .list .item {
+    color: #ffffff;
+    border-top: 1px solid #000000;
 }
 
 .list .item:first-child {
@@ -1430,9 +1582,19 @@ input[type="radio"], input[type="checkbox"] {
     outline: none;
 }
 
+.dark .form-control {
+    background-color: #323232;
+    border: 1px solid #3F3F3F;
+}
+
 .form-control:focus {
     border-color: #4E84D6;
     box-shadow: 0 0 0 3px #7EA1E4;
+}
+
+.dark .form-control:focus {
+    border-color: #2A668C;
+    box-shadow: 0 0 0 3px #2A668C;
 }
 
 .form-group {
@@ -1488,6 +1650,10 @@ textarea {
     border-radius: 4px;
 }
 
+.dark .tabview {
+    background-color: #717372;
+}
+
 .tabitem {
     display: inline-block;
     vertical-align: middle;
@@ -1497,6 +1663,11 @@ textarea {
     font-size: 12.5px;
     border-right: none;
     border-left: solid 1px #E5E5E5;
+}
+
+.dark .tabitem {
+    border: solid 1px #3B3D3C;
+    border-left: solid 1px #5F6160;
 }
 
 .tabitem {
@@ -1512,20 +1683,56 @@ textarea {
     border-right: solid 1px #C9C9C9;
 }
 
+.dark .tabitem:last-child {
+    border-right: solid 1px #3B3D3C;
+}
+
 .tabitem:first-child {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
+    border-left: solid 1px #C9C9C9;
+}
+.dark .tabitem:first-child {
+    border-left: solid 1px #3B3D3C;
 }
 
 .tabitem:not(:first-child):not(:last-child) {
     border-radius: 0;
 }
 
-.tabitem.active {
-    border: solid 1px #4A8FF7;
+.tabitem.active:not(:first-child) {
+    border-top: solid 1px #C9C9C9;
+    border-bottom: solid 1px #C9C9C9;
+    border-left: none;
+    border-right: none;
     background-image: linear-gradient(to bottom, #69A2F8 0%, #116DF6 100%);
+    color: white;
+}
+
+.tabitem.active:first-child {
+    border-top: solid 1px #C9C9C9;
+    border-bottom: solid 1px #C9C9C9;
+    border-right: none;
+    background-image: linear-gradient(to bottom, #69A2F8 0%, #116DF6 100%);
+    color: white;
+}
+
+.dark .tabitem.active:not(:first-child) {
+    border-top: solid 1px #3B3D3C;
+    border-bottom: solid 1px #3B3D3C;
+    border-left: none;
+    border-right: none;
+    background-image: linear-gradient(to bottom, #1769E6 0%, #155ECE 100%);
+    color: white;
+}
+
+.dark .tabitem.active:first-child {
+    border-top: solid 1px #3B3D3C;
+    border-bottom: solid 1px #3B3D3C;
+    border-right: none;
+    background-image: linear-gradient(to bottom, #1769E6 0%, #155ECE 100%);
     color: white;
 }
 
@@ -1597,6 +1804,11 @@ progress.three-quarter {
     display: inline-block;
     margin-bottom: -7px;
     background: linear-gradient(to right, #EDEDED 50%, #777777 50%);
+}
+
+.dark .progress-circle {
+    border: solid 1px #EDEDED;
+    background: linear-gradient(to right, #777777 50%, #EDEDED 50%);
 }
 
 .progress-circle:before {
@@ -2114,13 +2326,518 @@ progress.three-quarter {
     transform: rotate(180deg);
 }
 
+.dark .progress-0:before {
+    background: #777;
+    transform: rotate(0deg);
+}
+
+.dark .progress-1:before {
+    background: #777;
+    transform: rotate(3.6deg);
+}
+
+.dark .progress-2:before {
+    background: #777;
+    transform: rotate(7.2deg);
+}
+
+.dark .progress-3:before {
+    background: #777;
+    transform: rotate(10.8deg);
+}
+
+.dark .progress-4:before {
+    background: #777;
+    transform: rotate(14.4deg);
+}
+
+.dark .progress-5:before {
+    background: #777;
+    transform: rotate(18deg);
+}
+
+.dark .progress-6:before {
+    background: #777;
+    transform: rotate(21.6deg);
+}
+
+.dark .progress-7:before {
+    background: #777;
+    transform: rotate(25.2deg);
+}
+
+.dark .progress-8:before {
+    background: #777;
+    transform: rotate(28.8deg);
+}
+
+.dark .progress-9:before {
+    background: #777;
+    transform: rotate(32.4deg);
+}
+
+.dark .progress-10:before {
+    background: #777;
+    transform: rotate(36deg);
+}
+
+.dark .progress-11:before {
+    background: #777;
+    transform: rotate(39.6deg);
+}
+
+.dark .progress-12:before {
+    background: #777;
+    transform: rotate(43.2deg);
+}
+
+.dark .progress-13:before {
+    background: #777;
+    transform: rotate(46.8deg);
+}
+
+.dark .progress-14:before {
+    background: #777;
+    transform: rotate(50.4deg);
+}
+
+.dark .progress-15:before {
+    background: #777;
+    transform: rotate(54deg);
+}
+
+.dark .progress-16:before {
+    background: #777;
+    transform: rotate(57.6deg);
+}
+
+.dark .progress-17:before {
+    background: #777;
+    transform: rotate(61.2deg);
+}
+
+.dark .progress-18:before {
+    background: #777;
+    transform: rotate(64.8deg);
+}
+
+.dark .progress-19:before {
+    background: #777;
+    transform: rotate(68.4deg);
+}
+
+.dark .progress-20:before {
+    background: #777;
+    transform: rotate(72deg);
+}
+
+.dark .progress-21:before {
+    background: #777;
+    transform: rotate(75.6deg);
+}
+
+.dark .progress-22:before {
+    background: #777;
+    transform: rotate(79.2deg);
+}
+
+.dark .progress-23:before {
+    background: #777;
+    transform: rotate(82.8deg);
+}
+
+.dark .progress-24:before {
+    background: #777;
+    transform: rotate(86.4deg);
+}
+
+.dark .progress-25:before {
+    background: #777;
+    transform: rotate(90deg);
+}
+
+.dark .progress-26:before {
+    background: #777;
+    transform: rotate(93.6deg);
+}
+
+.dark .progress-27:before {
+    background: #777;
+    transform: rotate(97.2deg);
+}
+
+.dark .progress-28:before {
+    background: #777;
+    transform: rotate(100.8deg);
+}
+
+.dark .progress-29:before {
+    background: #777;
+    transform: rotate(104.4deg);
+}
+
+.dark .progress-30:before {
+    background: #777;
+    transform: rotate(108deg);
+}
+
+.dark .progress-31:before {
+    background: #777;
+    transform: rotate(111.6deg);
+}
+
+.dark .progress-32:before {
+    background: #777;
+    transform: rotate(115.2deg);
+}
+
+.dark .progress-33:before {
+    background: #777;
+    transform: rotate(118.8deg);
+}
+
+.dark .progress-34:before {
+    background: #777;
+    transform: rotate(122.4deg);
+}
+
+.dark .progress-35:before {
+    background: #777;
+    transform: rotate(126deg);
+}
+
+.dark .progress-36:before {
+    background: #777;
+    transform: rotate(129.6deg);
+}
+
+.dark .progress-37:before {
+    background: #777;
+    transform: rotate(133.2deg);
+}
+
+.dark .progress-38:before {
+    background: #777;
+    transform: rotate(136.8deg);
+}
+
+.dark .progress-39:before {
+    background: #777;
+    transform: rotate(140.4deg);
+}
+
+.dark .progress-40:before {
+    background: #777;
+    transform: rotate(144deg);
+}
+
+.dark .progress-41:before {
+    background: #777;
+    transform: rotate(147.6deg);
+}
+
+.dark .progress-42:before {
+    background: #777;
+    transform: rotate(151.2deg);
+}
+
+.dark .progress-43:before {
+    background: #777;
+    transform: rotate(154.8deg);
+}
+
+.dark .progress-44:before {
+    background: #777;
+    transform: rotate(158.4deg);
+}
+
+.dark .progress-45:before {
+    background: #777;
+    transform: rotate(162deg);
+}
+
+.dark .progress-46:before {
+    background: #777;
+    transform: rotate(165.6deg);
+}
+
+.dark .progress-47:before {
+    background: #777;
+    transform: rotate(169.2deg);
+}
+
+.dark .progress-48:before {
+    background: #777;
+    transform: rotate(172.8deg);
+}
+
+.dark .progress-49:before {
+    background: #777;
+    transform: rotate(176.4deg);
+}
+
+.dark .progress-50:before {
+    background: #777;
+    transform: rotate(180deg);
+}
+
+.dark .progress-51:before {
+    background: #EDEDED;
+    transform: rotate(3.6deg);
+}
+
+.dark .progress-52:before {
+    background: #EDEDED;
+    transform: rotate(7.2deg);
+}
+
+.dark .progress-53:before {
+    background: #EDEDED;
+    transform: rotate(10.8deg);
+}
+
+.dark .progress-54:before {
+    background: #EDEDED;
+    transform: rotate(14.4deg);
+}
+
+.dark .progress-55:before {
+    background: #EDEDED;
+    transform: rotate(18deg);
+}
+
+.dark .progress-56:before {
+    background: #EDEDED;
+    transform: rotate(21.6deg);
+}
+
+.dark .progress-57:before {
+    background: #EDEDED;
+    transform: rotate(25.2deg);
+}
+
+.dark .progress-58:before {
+    background: #EDEDED;
+    transform: rotate(28.8deg);
+}
+
+.dark .progress-59:before {
+    background: #EDEDED;
+    transform: rotate(32.4deg);
+}
+
+.dark .progress-60:before {
+    background: #EDEDED;
+    transform: rotate(36deg);
+}
+
+.dark .progress-61:before {
+    background: #EDEDED;
+    transform: rotate(39.6deg);
+}
+
+.dark .progress-62:before {
+    background: #EDEDED;
+    transform: rotate(43.2deg);
+}
+
+.dark .progress-63:before {
+    background: #EDEDED;
+    transform: rotate(46.8deg);
+}
+
+.dark .progress-64:before {
+    background: #EDEDED;
+    transform: rotate(50.4deg);
+}
+
+.dark .progress-65:before {
+    background: #EDEDED;
+    transform: rotate(54deg);
+}
+
+.dark .progress-66:before {
+    background: #EDEDED;
+    transform: rotate(57.6deg);
+}
+
+.dark .progress-67:before {
+    background: #EDEDED;
+    transform: rotate(61.2deg);
+}
+
+.dark .progress-68:before {
+    background: #EDEDED;
+    transform: rotate(64.8deg);
+}
+
+.dark .progress-69:before {
+    background: #EDEDED;
+    transform: rotate(68.4deg);
+}
+
+.dark .progress-70:before {
+    background: #EDEDED;
+    transform: rotate(72deg);
+}
+
+.dark .progress-71:before {
+    background: #EDEDED;
+    transform: rotate(75.6deg);
+}
+
+.dark .progress-72:before {
+    background: #EDEDED;
+    transform: rotate(79.2deg);
+}
+
+.dark .progress-73:before {
+    background: #EDEDED;
+    transform: rotate(82.8deg);
+}
+
+.dark .progress-74:before {
+    background: #EDEDED;
+    transform: rotate(86.4deg);
+}
+
+.dark .progress-75:before {
+    background: #EDEDED;
+    transform: rotate(90deg);
+}
+
+.dark .progress-76:before {
+    background: #EDEDED;
+    transform: rotate(93.6deg);
+}
+
+.dark .progress-77:before {
+    background: #EDEDED;
+    transform: rotate(97.2deg);
+}
+
+.dark .progress-78:before {
+    background: #EDEDED;
+    transform: rotate(100.8deg);
+}
+
+.dark .progress-79:before {
+    background: #EDEDED;
+    transform: rotate(104.4deg);
+}
+
+.dark .progress-80:before {
+    background: #EDEDED;
+    transform: rotate(108deg);
+}
+
+.dark .progress-81:before {
+    background: #EDEDED;
+    transform: rotate(111.6deg);
+}
+
+.dark .progress-82:before {
+    background: #EDEDED;
+    transform: rotate(115.2deg);
+}
+
+.dark .progress-83:before {
+    background: #EDEDED;
+    transform: rotate(118.8deg);
+}
+
+.dark .progress-84:before {
+    background: #EDEDED;
+    transform: rotate(122.4deg);
+}
+
+.dark .progress-85:before {
+    background: #EDEDED;
+    transform: rotate(126deg);
+}
+
+.dark .progress-86:before {
+    background: #EDEDED;
+    transform: rotate(129.6deg);
+}
+
+.dark .progress-87:before {
+    background: #EDEDED;
+    transform: rotate(133.2deg);
+}
+
+.dark .progress-88:before {
+    background: #EDEDED;
+    transform: rotate(136.8deg);
+}
+
+.dark .progress-89:before {
+    background: #EDEDED;
+    transform: rotate(140.4deg);
+}
+
+.dark .progress-90:before {
+    background: #EDEDED;
+    transform: rotate(144deg);
+}
+
+.dark .progress-91:before {
+    background: #EDEDED;
+    transform: rotate(147.6deg);
+}
+
+.dark .progress-92:before {
+    background: #EDEDED;
+    transform: rotate(151.2deg);
+}
+
+.dark .progress-93:before {
+    background: #EDEDED;
+    transform: rotate(154.8deg);
+}
+
+.dark .progress-94:before {
+    background: #EDEDED;
+    transform: rotate(158.4deg);
+}
+
+.dark .progress-95:before {
+    background: #EDEDED;
+    transform: rotate(162deg);
+}
+
+.dark .progress-96:before {
+    background: #EDEDED;
+    transform: rotate(165.6deg);
+}
+
+.dark .progress-97:before {
+    background: #EDEDED;
+    transform: rotate(169.2deg);
+}
+
+.dark .progress-98:before {
+    background: #EDEDED;
+    transform: rotate(172.8deg);
+}
+
+.dark .progress-99:before {
+    background: #EDEDED;
+    transform: rotate(176.4deg);
+}
+
+.dark .progress-100:before {
+    background: #EDEDED;
+    transform: rotate(180deg);
+}
+
 /* Indeterminate Progress Spinner */
 
 .progress-spinner {
     display: inline-block;
 }
 
-.progress-spinner > .spinner {
+.progress-spinner>.spinner {
     height: 20px;
     position: relative;
     top: 11px;
@@ -2186,6 +2903,10 @@ progress.three-quarter {
     overflow-y: auto;
     flex: 1;
     border-left: 1px solid #ddd;
+}
+
+.dark .pane {
+    border-left: 1px solid #000000;
 }
 
 .pane:first-child {
