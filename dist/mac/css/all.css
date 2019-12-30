@@ -562,6 +562,10 @@ body {
     flex-direction: column;
 }
 
+.window-vibrant.dark {
+    color: white;
+}
+
 .content {
     position: relative;
     overflow-y: auto;

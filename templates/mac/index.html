@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="window dark">
+    <div class="window">
         <header class="titlebar draggable">
             <h1 class="window-title">macOS Native Kit</h1>
             <div class="toolbars">
@@ -56,7 +56,7 @@
                 </div>
             </div>
         </header>
-        <div class="content "></div>
+        <div class="content"></div>
         <footer class="titlebar statusbar">
             <h1 class="window-title">Native Kit</h1>
         </footer>
@@ -64,7 +64,7 @@
     <script src="./../../dist/mac/scripts/nativekit.js"></script>
     <script>
         var target = document.getElementById('progress-spinner');
-        var spinner = new Spinner().spin(target);
+        var spinner = new Spinner({color: white}).spin(target);
     </script>
 
 </body>
