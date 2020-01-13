@@ -53,7 +53,7 @@ COMPONENTS IN THIS FILE:
 
 /* Font Imports */
 
-@font-face {
+/* @font-face {
     font-family: SFProDisplay;
     src: url('../fonts/SF-Pro-Display-Ultralight.otf');
     font-weight: 100;
@@ -298,7 +298,7 @@ COMPONENTS IN THIS FILE:
     src: url('../fonts/SF-Pro-Text-UltralightItalic.otf');
     font-weight: 100;
     font-style: italic;
-}
+} */
 
 @font-face {
     font-family: SFProText;
