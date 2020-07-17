@@ -826,6 +826,15 @@ h6 {
     -webkit-app-region: drag;
 }
 
+.statusbar > .toolbars {
+    margin-top: 6px;
+    margin-bottom: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    -webkit-app-region: no-drag;
+}
+
 .toolbars:before, .toolbars:after {
     display: table;
     content: " ";
